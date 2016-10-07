@@ -37,9 +37,9 @@
                 console.log(response);
                 //load json data from server and output message     
                 if (response.status == 'error') {
-                 output = '<div class="error">' + response.text + '</div>';
-             }
-             else {
+                   output = '<div class="error">' + response.text + '</div>';
+               }
+               else {
 
                 output = '<div class="success">' + response.text + '</div>';
                     //reset values in all input fields
@@ -73,7 +73,7 @@
         //get input field values
         var user_name = $('input[name=name]').val();
         var user_email = $('input[name=email]').val();
-        var user_company = $('input[name=company]').val();
+        
         var user_phone = $('input[name=phone]').val();
         var user_message = $('textarea[name=message]').val();
 
@@ -102,7 +102,7 @@
             //data to be sent to server
             post_data = {
                 'userName': user_name,
-                'userCompany': user_company,
+                
                 'userEmail': user_email,
                 'userMessage': user_message,
                 'userPhone': user_phone
@@ -117,9 +117,9 @@
                 console.log(response);
                 //load json data from server and output message     
                 if (response.status == 'error') {
-                 output = '<div class="error">' + response.text + '</div>';
-             }
-             else {
+                   output = '<div class="error">' + response.text + '</div>';
+               }
+               else {
 
                 output = '<div class="success">' + response.text + '</div>';
 

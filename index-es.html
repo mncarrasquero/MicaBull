@@ -22,7 +22,7 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  
+
   <title>Tienda Bull - Digital Agency</title>
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,500,100,700%7Dosis:400,500" rel="stylesheet">
 
@@ -328,15 +328,16 @@
 
    <div class="row">
     <div class="col-md-8 col-md-offset-2 text-center">
-      <h2 class="colorBlanco alt-font newsletter-title ">QUERÉS SER UN <b>BULL?<b></h2>
+      <form id="join-form" >
+        <h2 class="colorBlanco alt-font newsletter-title ">QUERÉS SER UN <b>BULL?<b></h2>
 
-      <div class="row">
-        <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-4">
 
-        </div>
-        <div class="col-md-4">
-          <input id="indput-subscribe" name="subscribe" type="email" placeholder="EMAIL" style=" text-align:center; color: #FFF;" class="text-line   newsletter-input  ">
-
+          </div>
+          <div class="col-md-4">
+            <input id="indput-subscribe" name="subscribe" type="email" placeholder="EMAIL" style=" text-align:center; color: #FFF;" class="text-line   newsletter-input  ">
+          </form>
         </div>
         <div class="col-md-4">
 
@@ -345,7 +346,7 @@
 
       <br>
 
-      <button class="btn btn-coffee btn-medium">UNITE A NOSOTROS</button>
+      <button id="submit-join" class="btn btn-coffee btn-medium">UNITE A NOSOTROS</button>
       <div id="subscribe-result"></div>
 
     </div>
@@ -451,7 +452,7 @@
             <input id="input-email" name="email" type="email" placeholder="Correo*" required class="form-control input-md">
           </div>
           <div class="col-md-6">
-            <input id="input-company" name="company" type="text" placeholder="Empresa" class="form-control input-md">
+            <input id="input-phone" name="phone" type="text" placeholder="Numero telefonico" class="form-control input-md">
           </div>
           <div class="col-md-12">
             <textarea id="input-message" name="message" placeholder="Mensaje*" required class="form-control input-md"></textarea>

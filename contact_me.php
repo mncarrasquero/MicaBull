@@ -3,7 +3,7 @@
 
 // please only use the fields thata re present in the html form itself for now we have listed all possible ones
 
-$to = "micarosental@gmail.com";
+$to = "mncarrasquero@gmail.com";
 
 if (isset($_POST)){
 
